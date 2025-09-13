@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      /* Gradient definition for Python icon */
+      .gradient-defs {
+        position: absolute; /* Ensures it doesn’t affect layout */
+        width: 0;
+        height: 0;
+      }
+      .python-gradient {
+        fill: url(#pythonGradient);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gradient-defs">
+      <svg>
+        <defs>
+          <linearGradient id="pythonGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#306998" stop-opacity="1" />
+            <stop offset="100%" stop-color="#FFD43B" stop-opacity="0.8" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>    
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
