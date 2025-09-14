@@ -4,6 +4,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import IIITU from "../assets/IIIT-UNA.jpg";
 import SNSPS from "../assets/images.jpg";
+import AlgoUniversity from "../assets/algouniversity.png"
+import { SiLeetcode, SiCodechef, SiFlipkart } from "react-icons/si";
+
 export const HERO_CONTENT = `Final year Computer Science Engineering student at IIIT Una | Full-Stack Developer | Web Development | Competitive Programming | Problem Solving | Tech Explorer`;
 
 
@@ -106,6 +109,58 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
+
+// const MerakiIcon = () => (
+//   <img src="/assets/logos/meraki.png" alt="Meraki" className="w-6 h-6" />
+// );
+
+const AlgoUniversityIcon = () => (
+  <img src={AlgoUniversity} alt="AlgoUniversity" className="w-full h-8" />
+);
+
+
+export  const achievements = [
+    {
+      title: "First Position in Run Code Run",
+      description: "Secured First Position in Run Code Run during Meraki, an Inter-College level coding event.",
+      year: "2025",
+      //icon: <MerakiIcon />,
+    },
+    {
+      title: "800+ DSA Problems",
+      description: "Solved over 800+ Data Structures and Algorithms problems on platforms like LeetCode and CodeChef.",
+      year: "2025",
+      icon: <SiLeetcode className="text-orange-500" />,
+    },
+    {
+      title: "2-Star on CodeChef",
+      description: "Achieved 2-star rating on CodeChef with a peak rating of 1466.",
+      year: "2025",
+      icon: <SiCodechef className="text-brown-500" />,
+      highlight: false,
+    },
+    {
+      title: "First Position in AlgoQuiz",
+      description: "Secured First Position in AlgoQuiz conducted by AlgoUniversity at the college level.",
+      year: "2023",
+      icon: <AlgoUniversityIcon />,
+      highlight: true,
+    },
+    {
+      title: "Top 20 in CODE-RUSH",
+      description: "Ranked among the Top 20 in CODE-RUSH, hosted by AlgoUniversity.",
+      year: "2024",
+      icon: <AlgoUniversityIcon />,
+      highlight: false,
+    },
+    {
+      title: "Semi-Finalist in Flipkart GRiD 7.0",
+      description: "Selected as a Semi-Finalist in Flipkart GRiD 7.0, a national-level hackathon.",
+      year: "2025",
+      icon: <SiFlipkart className="text-blue-500" />,
+      highlight: true,
+    },
+  ];
 
 export const CONTACT = {
   address: "Indian Institute of Information Technology, Una",
