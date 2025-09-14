@@ -1,8 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiHtml5, SiCss3, SiJavascript, SiMysql } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiMysql, SiNodedotjs, SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
 import cpp from "../assets/icons8-c++.svg"
-import python from "../assets/python.png"
 // Define the icon variants for animation
 const iconvariants = (dura) => ({
     initial: { y: -10 },
@@ -71,6 +70,24 @@ const Tech = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
 
+        <motion.div
+          variants={iconvariants(1.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNodedotjs className="text-7xl text-blue-500" />
+        </motion.div>
+
+        <motion.div
+          variants={iconvariants(1.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiMongodb className="text-7xl text-blue-500" />
+        </motion.div>
+
         {/* C++ Icon (Using your custom SVG image) */}
         <motion.div
           variants={iconvariants(1.5)}
@@ -86,19 +103,6 @@ const Tech = () => {
           />
         </motion.div>
 
-        <motion.div
-          variants={iconvariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <img
-            src= {python}  // Update the path to your actual C++ SVG file
-            alt="python Logo"
-            className="text-7xl"
-            style={{ width: '64px', height: '64px' }}  // Adjust size if needed
-          />
-        </motion.div>
 
         <motion.div
           variants={iconvariants(2.5)}

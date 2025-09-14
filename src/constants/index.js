@@ -2,11 +2,48 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import IIITU from "../assets/IIIT-UNA.jpg";
+import SNSPS from "../assets/images.jpg";
+export const HERO_CONTENT = `Final year Computer Science Engineering student at IIIT Una | Full-Stack Developer | Web Development | Competitive Programming | Problem Solving | Tech Explorer`;
 
-export const HERO_CONTENT = `I'm Anmol Aggarwal, a pre-final year IIIT Una student studying computer science engineering. I enjoy web building, solving puzzles, and competitive programming. In addition to having a solid foundation in HTML, CSS, JavaScript and MySQL, I also know how to use Git and GitHub for version control.
-Along with my technical proficiency, I actively participate in competitive programming, which helps me improve my critical thinking and problem-solving skills under time constraints. In addition, I have strong management and leadership abilities, which allow me to inspire and lead groups. I pick things up quickly and am constantly willing to take on new tasks and increase my knowledge.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a strong interest in creating efficient and user-friendly applications. 
+My journey began with curiosity about how the web works, and it has grown into a passion for designing and developing modern solutions. 
+I have worked with technologies like React, Node.js, and MySQL, and I constantly seek opportunities to learn and adapt to emerging tools. 
+Collaboration and problem-solving drive my approach, and I take pride in delivering high-quality, practical outcomes. 
+Outside of coding, I enjoy exploring new tech trends, contributing to open-source, and enhancing my skills through competitive programming.`;
+
+
+export const educationData = [
+    {
+      id: 1,
+      year: "2022-2026",
+      degree: "Bachelor of Computer Science",
+      institution: "Indian Institute of Information Technology, Una, Himachal Pradesh",
+      cgpa: "7.98/10.0",
+      image: IIITU,
+      imagesize: "large"
+    },
+    {
+      id: 2,
+      year: "2021-2022",
+      degree: "Senior Secondary Education - XII",
+      institution: "Sant Nischal Singh Public School, Yamuna Nagar, Haryana",
+      percentage: "90.6%",
+      image: SNSPS,
+      imagesize: "small"
+    },
+    {
+      id: 3,
+      year: "2019-2020",
+      degree: "Secondary Education - X",
+      institution: "Sant Nischal Singh Public School, Yamuna Nagar, Haryana",
+      percentage: "95.8%",
+      image: SNSPS,
+      imagesize: "small"
+    }
+  ];
+
 
 export const EXPERIENCES = [
   {

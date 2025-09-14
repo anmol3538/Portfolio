@@ -4,6 +4,8 @@ import About from "./components/About"
 import Technology from "./components/Technology"
 import Project from "./components/Project"
 import Contact from "./components/Contact"
+import Education from "./components/Education"
+import Achievements from "./components/Achievements"
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialised 
@@ -15,8 +17,10 @@ const App = () => {
        <Navbar/>
        <Hero/>
        <About/>
+       <Education/>
        <Technology/>
        <Project/>
+       <Achievements/>
        <Contact/>
        </div>
     </div>
