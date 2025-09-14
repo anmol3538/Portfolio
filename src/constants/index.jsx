@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/Solvio.png";
 import project2 from "../assets/backend.jpg";
 import IIITU from "../assets/IIIT-UNA.jpg";
 import SNSPS from "../assets/images.jpg";
@@ -20,7 +20,7 @@ export const educationData = [
     {
       id: 1,
       year: "2022-2026",
-      degree: "Bachelor of Computer Science",
+      degree: "B.Tech in Computer Science and Engineering",
       institution: "Indian Institute of Information Technology, Una, Himachal Pradesh",
       cgpa: "7.98/10.0",
       image: IIITU,
@@ -47,20 +47,21 @@ export const educationData = [
   ];
 
 
-export const EXPERIENCES = [
-  {
-    year: "May 2025 - August 2025",
-    role: "Full Stack Developer Intern",
-    company: "InfinitoComics",
-    description: `Part of a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Express.js"],
-    img: INFINITO
-  },
-];
+export const experiences = [
+    {
+      year: "May 2025 - August 2025",
+      role: "Full Stack Developer Intern",
+      company: "InfinitoComics",
+      description: `Developed and maintained web applications using React.js, Node.js, and MongoDB. Built REST APIs, integrated DB, and collaborated with stakeholders to define project scope.`,
+      technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "Express.js"],
+      img: INFINITO,
+      location: "Remote",
+    },
+  ];
 
 export const PROJECTS = [
   {
-    title: "ProConnect",
+    title: "Solvio",
     image: project1,
     description:
       "ProConnect is a platform that allows users to post jobs, apply to jobs, and connect with opportunities.",
@@ -99,7 +100,6 @@ export  const achievements = [
       title: "First Position in Run Code Run",
       description: "Secured First Position in Run Code Run during Meraki, an Inter-College level coding event.",
       year: "2025",
-      //icon: <MerakiIcon />,
     },
     {
       title: "800+ DSA Problems",
@@ -140,5 +140,9 @@ export  const achievements = [
 export const CONTACT = {
   address: "Indian Institute of Information Technology, Una",
   phoneNo: "+91 9992588763 ",
-  email: "22112@iiitu.ac.in",
+  email: "anmolaggarwal0579@gmail.com",
+  socials: {
+    github: "https://github.com/anmol3538",
+    linkedin: "https://linkedin.com/in/anmol3538",
+  }
 };

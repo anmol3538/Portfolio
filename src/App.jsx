@@ -6,6 +6,7 @@ import Project from "./components/Project"
 import Contact from "./components/Contact"
 import Education from "./components/Education"
 import Achievements from "./components/Achievements"
+import Experiences from "./components/Experiences"
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialised 
@@ -18,6 +19,7 @@ const App = () => {
        <Hero/>
        <About/>
        <Education/>
+       <Experiences />
        <Technology/>
        <Project/>
        <Achievements/>

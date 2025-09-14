@@ -21,7 +21,7 @@ const About = () => {
             <img className="rounded-2xl w-200 h-80" src={aboutImg} alt="about" />
           </div>
         </motion.div>
-        {/* Text Section */}
+
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}

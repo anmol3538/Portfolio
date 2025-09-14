@@ -2,7 +2,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiHtml5, SiCss3, SiJavascript, SiMysql, SiNodedotjs, SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
 import cpp from "../assets/icons8-c++.svg"
-// Define the icon variants for animation
+
 const iconvariants = (dura) => ({
     initial: { y: -10 },
     animate: {
@@ -33,7 +33,7 @@ const Tech = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        {/* New Icons */}
+
         <motion.div
           variants={iconvariants(2)}
           initial="initial"
@@ -88,7 +88,7 @@ const Tech = () => {
           <SiMongodb className="text-7xl text-blue-500" />
         </motion.div>
 
-        {/* C++ Icon (Using your custom SVG image) */}
+  
         <motion.div
           variants={iconvariants(1.5)}
           initial="initial"
@@ -96,10 +96,10 @@ const Tech = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <img
-            src= {cpp}  // Update the path to your actual C++ SVG file
+            src= {cpp}
             alt="C++ Logo"
             className="text-7xl"
-            style={{ width: '64px', height: '64px' }}  // Adjust size if needed
+            style={{ width: '64px', height: '64px' }}
           />
         </motion.div>
 

@@ -19,7 +19,6 @@ const Project = () => {
             key={index}
             className="mb-8 flex flex-wrap lg:justify-center"
           >
-            {/* Project Image */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
