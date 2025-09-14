@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { achievements } from "../constants";
 const Achievements = () => {
-
-  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

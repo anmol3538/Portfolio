@@ -1,11 +1,10 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/backend.jpg";
 import IIITU from "../assets/IIIT-UNA.jpg";
 import SNSPS from "../assets/images.jpg";
 import AlgoUniversity from "../assets/algouniversity.png"
 import { SiLeetcode, SiCodechef, SiFlipkart } from "react-icons/si";
+import INFINITO from "../assets/infinitocomic_logo.jpg"
 
 export const HERO_CONTENT = `Final year Computer Science Engineering student at IIIT Una | Full-Stack Developer | Web Development | Competitive Programming | Problem Solving | Tech Explorer`;
 
@@ -50,69 +49,45 @@ export const educationData = [
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2025 - August 2025",
+    role: "Full Stack Developer Intern",
+    company: "InfinitoComics",
+    description: `Part of a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Express.js"],
+    img: INFINITO
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "ProConnect",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "ProConnect is a platform that allows users to post jobs, apply to jobs, and connect with opportunities.",
+    points: [
+      "Employers can post jobs with detailed descriptions.",
+      "Job seekers can browse and apply for jobs directly.",
+      "Includes authentication for secure user access.",
+      "Interactive UI for smooth navigation."
+    ],
+    technologies: ["React", "Express.js", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Airline Backend System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Microservices backend system to manage airline operations such as booking, scheduling, and user management.",
+    points: [
+      "Handles flight scheduling and passenger bookings.",
+      "Provides APIs for airline data management.",
+      "Implements role-based authentication for admins and users.",
+      "Optimized database structure for fast queries.",
+      "Uses RabbitMq for easy communication between different services."
+    ],
+    technologies: ["Node.js", "Express.js", "MongoDB", "RabbitMQ"],
   },
 ];
 
-// const MerakiIcon = () => (
-//   <img src="/assets/logos/meraki.png" alt="Meraki" className="w-6 h-6" />
-// );
 
 const AlgoUniversityIcon = () => (
   <img src={AlgoUniversity} alt="AlgoUniversity" className="w-full h-8" />
